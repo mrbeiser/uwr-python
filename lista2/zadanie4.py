@@ -26,4 +26,4 @@ def dlcver2(liczba):
 
 
 
-dlcver2(123)
+dlcver2(541)

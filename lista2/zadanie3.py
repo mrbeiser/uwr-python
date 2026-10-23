@@ -20,7 +20,7 @@ def kolko(n,add):
 
 def ogarodstep(kolka):
     for i in range(len(kolka)):
-            kolko(kolka[i], len(kolka)-i)
+            kolko(kolka[i], max(kolka)//2 - (kolka[i] // 2))
 
 
-ogarodstep([5,7,9])
+ogarodstep([5,25,41])

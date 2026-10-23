@@ -1,7 +1,7 @@
 def szachownica(n,k):
     squareCount = 2*n
 
-    currentColor = False # dla spacji 0 czyli kolor bialy, dla \# wartosc 1 czyli kwadraciki czarne
+    currentColor = True # dla spacji 0 czyli kolor bialy, dla \# wartosc 1 czyli kwadraciki czarne
 
     for m in range(squareCount): # liczba kwadratow
         for o in range(k): #liijka kwadratu
@@ -19,4 +19,4 @@ def zwrocZnak(color):
     else:
         return " "
 
-szachownica(3,5)
+szachownica(2,4)

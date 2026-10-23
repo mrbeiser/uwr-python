@@ -12,4 +12,4 @@ def wypiszkoperte(n):
                     print (' ', end='')
         print()
 
-wypiszkoperte(10)
+wypiszkoperte(13)
